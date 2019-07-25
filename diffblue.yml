@@ -172,21 +172,21 @@ phases:
       # instrument the file as opposed to the function only
       cover-only: file
 units:
-  - target:
-   - dir: spring-cloud-netflix-eureka-client/target/classes
+ - target:
+   - dir: target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.class
-     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
+     sourceDir: src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.java
-   - dir: spring-cloud-netflix-eureka-client/target/classes
+   - dir: target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/ZoneUtils.class
-     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
+     sourceDir: src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/ZoneUtils.java
-   - dir: spring-cloud-netflix-eureka-client/target/classes
+   - dir: target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/EurekaServerIntrospector.class
-     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
+     sourceDir: src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/EurekaServerIntrospector.java
-   - dir: spring-cloud-netflix-eureka-client/target/classes
+   - dir: target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.class
-     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
+     sourceDir: src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.java
  
