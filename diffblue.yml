@@ -173,20 +173,20 @@ phases:
       cover-only: file
 units:
  - target:
-   - dir: target/classes
+   - dir: spring-cloud-netflix-eureka-client/target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.class
-     sourceDir: src/main/java
+     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.java
-   - dir: target/classes
+   - dir: spring-cloud-netflix-eureka-client/target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/ZoneUtils.class
-     sourceDir: src/main/java
+     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/ZoneUtils.java
-   - dir: target/classes
+   - dir: spring-cloud-netflix-eureka-client/target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/EurekaServerIntrospector.class
-     sourceDir: src/main/java
+     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/EurekaServerIntrospector.java
-   - dir: target/classes
+   - dir: spring-cloud-netflix-eureka-client/target/classes
      file: org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.class
-     sourceDir: src/main/java
+     sourceDir: spring-cloud-netflix-eureka-client/src/main/java
      sourceFile: org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.java
  
